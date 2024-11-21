@@ -29,3 +29,4 @@ C:\Users\47688244803\Desktop\BIBLIOTEC\BibliotecMVC\Bibliotec\obj\Debug\net8.0\r
 C:\Users\47688244803\Desktop\BIBLIOTEC\BibliotecMVC\Bibliotec\obj\Debug\net8.0\Bibliotec.pdb
 C:\Users\47688244803\Desktop\BIBLIOTEC\BibliotecMVC\Bibliotec\obj\Debug\net8.0\Bibliotec.genruntimeconfig.cache
 C:\Users\47688244803\Desktop\BIBLIOTEC\BibliotecMVC\Bibliotec\obj\Debug\net8.0\ref\Bibliotec.dll
+C:\Users\47688244803\Desktop\BIBLIOTEC\BibliotecMVC\Bibliotec\obj\Debug\net8.0\Bibliotec.csproj.AssemblyReference.cache
