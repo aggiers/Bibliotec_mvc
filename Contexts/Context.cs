@@ -31,7 +31,7 @@ namespace Bibliotec.Contexts
                 // User Id e Password => Informações de acesso ao servidor do banco de dados
 
                 optionsBuilder.UseSqlServer(@"Data Source=NOTE16-S28\\SQLEXPRESS; 
-                Initial Catalog =  Bibliotec_mvc; User Id=sa; Password=123; Integrated 
+                Initial Catalog = Bibliotec_mvc; User Id=sa; Password=123; Integrated 
                 Security=true; TrustServerCertificate = true");
             }
         }

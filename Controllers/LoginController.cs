@@ -33,8 +33,7 @@ namespace Bibliotec.Controllers
             string senhaInformado = form["Senha"]!;
 
             // Busca no banco de dados
-            Usuario usuarioBuscado = context.Usuario.FirstOrDefault
-            (usuario => usuario.Email == emailInformado && usuario.Senha == senhaInformado)!;
+            Usuario usuarioBuscado = context.Usuario.FirstOrDefault(usuario => usuario.Email == emailInformado && usuario.Senha == senhaInformado)!;
 
             // List<Usuario> listaUsuario = context.Usuario.ToList();
 
@@ -51,6 +50,7 @@ namespace Bibliotec.Controllers
                 return LocalRedirect("~/Login");
             } else {
                 Console.WriteLine($"Eva você enctrou!");
+                HttpContext.Session.SetString("UsuarioID", usuarioBuscado.UsuarioID.ToString());
                 return LocalRedirect("~/Livro");
             }
 
