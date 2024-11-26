@@ -7,6 +7,9 @@ namespace Bibliotec.Models
 {
     public class Curso
     {
-        
+        public int CategoriaID {get; set;}
+        public string? Nome {get; set;}
+        public char? Periodo {get; set;}
+
     }
 }
